@@ -39,3 +39,4 @@ jobs:
         run: |
           docker push 910965283770.dkr.ecr.us-east-2.amazonaws.com/netflix-frontend:${GITHUB_RUN_NUMBER}
 ```
+          docker push 910965283770.dkr.ecr.us-east-2.amazonaws.com/netflix-frontend:${GITHUB_RUN_NUMBER}
