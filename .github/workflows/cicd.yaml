@@ -1,4 +1,3 @@
-```yaml
 name: Build and push docker image
 
 on:
@@ -37,6 +36,4 @@ jobs:
 
       - name: Docker push
         run: |
-          docker push 910965283770.dkr.ecr.us-east-2.amazonaws.com/netflix-frontend:${GITHUB_RUN_NUMBER}
-```
           docker push 910965283770.dkr.ecr.us-east-2.amazonaws.com/netflix-frontend:${GITHUB_RUN_NUMBER}
